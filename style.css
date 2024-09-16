@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* start of homepage */
+.homepage{
+    height: auto;
+}
+.headersection{
+    background-color: rgb(46, 46, 201);
+    color: white;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.titlesection{
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+
+.titlesection button{
+    background-color: rgb(46, 46, 201);
+    padding: 9px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 70px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.loginsection{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logbtn button{
+    background-color: black;
+    padding: 9px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 70px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+.head{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(46, 46, 201);
+}
+.logo{
+    display: none;
+
+}
+
+.menu-linkforfons{
+    background-color: blue;
+    display: none;
+}
+.menu-linkforfons  ul li{
+ list-style: none;
+ margin: 20px;
+ text-align: left;
+    
+}
+.menu-linkforfons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.head h1{
+    color: white;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 15px;
+    list-style: none;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* end of header section */
+.center{
+    height: 75vh;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.form{
+    margin-top: 35vh;
+    background-color: white;
+    height: 160px;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+   
+}
+
+
+.form input,select{
+    padding: 8px;
+    margin: 10px;
+    width: 130px;
+    outline: none;
+    background-color:transparent;
+    border: 1px solid black;
+    color:black;
+    text-align: center;
+}
+.button input{
+    border: none;
+    width: 80px;
+}
+::placeholder{
+color: black;
+}
+.btn input{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    margin: 10px;
+    
+}
+
+.way input{
+    background-color: rgb(46, 46, 201);
+    border: none;
+    padding: 9px;
+    border-radius: 7px;
+
+}
+.way input::placeholder{
+    color: white;
+}
+
+/* end of homepage */
+.whyus{
+    height: auto;
+    background-color: rgb(254, 249, 249);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.whyus1{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+}
+.whyus1 img{
+    width: 40px;
+}
+.whyus1 h3{
+    padding: 7px;
+}
+.whyus1 p{
+    padding: 7px;
+}
+
+/* end of why us */
+.destinations{
+    height: auto;
+    
+}
+.destinations h1{
+    text-align: center;
+}
+.destiny1{
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.destiny2{
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.nairobi{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/nairobi.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.nakuru{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/nakuru.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kapsabet{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/kapsabet.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.shamakhokho{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/shamakhokho.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kisumu{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/kisumu.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kakamega{
+    height: 45vh;
+    width: 30%;
+    margin: 20px;
+    background-image: url(images/kakamega.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.box1{
+    height: 120px;
+    width: 90%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.box1 h4{
+    color: rgb(46, 46, 201);
+}
+/* end of destinations */
+.footer{
+    background-color: rgb(220, 220, 235);
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer1{
+    height: 40vh;
+    width: 40%;
+    margin: 10px;
+    background-image: url(images/map.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer2{
+   
+    height: 40vh;
+    width: 20%;
+    margin: 10px;
+}
+.footer2 h3{
+    padding-bottom: 10px;
+}
+.footer2 p{
+    padding: 10px;
+    text-align: left;
+    color: grey;
+}
+.contacts p{
+    color: red;
+}
+.footer3{
+   
+    height: 30vh;
+    width: 20%;
+    margin: 10px;
+}
+.footer3 img{
+    height: 50px;
+    margin-top: 10px;
+}
+.bottom{
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* media queries */
+@media only screen and (max-width:800px){
+   
+    /* start of homepage */
+.homepage{
+    height: auto;
+    
+    
+}
+.headersection{
+    padding: 10px;
+    
+}
+.headersection h2{
+    font-size: 16px;
+}
+.titlesection{
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+
+.titlesection button{
+    background-color: rgb(46, 46, 201);
+    padding: 7px;
+    border-radius: 5px;
+    margin: 7px;
+    width: 70px;
+    outline: none;
+    border: none;
+    color: white;
+}
+.loginsection{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logbtn button{
+    background-color: black;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 60px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+
+.head{
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(46, 46, 201);
+}
+
+.logo{
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    
+}
+.menu-linkforfons{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: rgba(127, 149, 239, 0.95);
+    box-shadow: -10px 0 10px rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: -2000;
+    transition: 3s;
+
+    
+}
+.menu-linkforfons  ul li{
+ list-style: none;
+ margin: 20px;
+ text-align: left;
+ height: 50px;
+ border: 1px solid white;
+ width: 200px;
+
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.menu-linkforfons ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.head h1{
+    color: white
+}
+.menu ul{
+    display: none;
+}
+
+/* end of header section */
+.center{
+    height: auto;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.form{
+
+    background-color: white;
+    height: auto;
+    width: 90%;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.button input{
+    margin: 0;
+    
+}
+.form input{
+    padding: 8px;
+    margin: 10px;
+    width: 140px;
+    outline: none;
+    color: black;
+}
+
+.btn input{
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 9px;
+    margin: 5px;
+    
+}
+
+/* end of homepage */
+
+.whyus{
+    height: auto;
+    background-color: rgb(254, 249, 249);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.whyus1{
+    height: 150px;
+    width: 350px;
+    margin: 20px;
+}
+.whyus1 img{
+    width: 40px;
+}
+.whyus1 h3{
+    padding: 7px;
+}
+.whyus1 p{
+    padding: 7px;
+}
+
+/* end of why us */
+
+.destinations{
+    height: auto;
+    padding-top: 20px;
+    
+}
+.destinations h1{
+    text-align: center;
+}
+.destiny1{
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.destiny2{
+    height: auto;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.nairobi{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/nairobi.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.nakuru{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/nakuru.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kapsabet{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/kapsabet.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.shamakhokho{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/shamakhokho.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kisumu{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/kisumu.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.kakamega{
+    height: 45vh;
+    width: 90%;
+    margin: 20px;
+    background-image: url(images/kakamega.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.box1{
+    height: 120px;
+    width: 90%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.box1 h4{
+    color: rgb(46, 46, 201);
+}
+/* end of destinations */
+.footer{
+    background-color: rgb(220, 220, 235);
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer1{
+    height: 40vh;
+    width: 100%;
+    margin: 10px;
+    background-image: url(images/map.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.footer2{
+   
+    height: auto;
+    width: 400px;
+    margin: 10px;
+}
+.footer2 h3{
+    padding-bottom: 10px;
+}
+.footer2 p{
+    padding: 10px;
+    text-align: center;
+    color: grey;
+}
+.contacts p{
+    color: red;
+}
+.footer3{
+   
+    height: auto;
+    width: 400px;
+    margin: 10px;
+}
+.footer3 img{
+    height: 50px;
+    margin-top: 10px;
+}
+.bottom{
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 10px;
+}
+}
